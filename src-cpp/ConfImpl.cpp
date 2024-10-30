@@ -33,7 +33,6 @@
 #include "rdkafkacpp_int.h"
 
 
-
 RdKafka::ConfImpl::ConfResult RdKafka::ConfImpl::set(const std::string &name,
 						     const std::string &value,
 						     std::string &errstr) {
