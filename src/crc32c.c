@@ -65,6 +65,7 @@
 /* Table for a quadword-at-a-time software crc. */
 static uint32_t crc32c_table[8][256];
 
+
 /* Construct table for software CRC-32C calculation. */
 static void crc32c_init_sw(void)
 {
